@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "165774025525",
+    "project_id": "pajak-app-f9298",
+    "storage_bucket": "pajak-app-f9298.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165774025525:android:1db45201a82cf4c1c0e27c",
+        "android_client_info": {
+          "package_name": "com.fiveHacks.pajakApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJwj81LT1Bj0Tm4UzU3h1XwBT8UDT5gEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
