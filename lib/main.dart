@@ -6,6 +6,7 @@ import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:pajak_app/firebase_options.dart';
 import 'package:pajak_app/mobile/features/splash_screen/splash_screen_mobile.dart';
+import 'package:pajak_app/website/features/login_screen/login_screen_web.dart';
 import 'package:pajak_app/website/features/splash_screen/splash_screen_web.dart';
 
 void main() async {
@@ -40,7 +41,7 @@ class MyApp extends StatelessWidget {
 
   loadPlatform() {
     if (kIsWeb) {
-      return const SplashScreenWeb();
+      return const LoginScreenWeb();
     } else {
       return const SplashScreenMobile();
     }
